@@ -1,0 +1,36 @@
+spring:
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+  application:
+    name: bkk-web
+  main:
+    banner-mode: "off"
+
+management:
+  server:
+    port: 9001
+  endpoint:
+    health:
+      show-details: "ALWAYS"
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    tags:
+      application: ${spring.application.name}
+
+server:
+  port: 8003
+  servlet:
+    application-display-name: "BKK"
+    context-path: /bkk
+
+longTermModelPmml: 'D:\DEV\pmml\streamingModel.pmml'
+
+api:
+  weatherUrl: "http://localhost:8001/bkk/prod"
+  key: "2e825506-7aea-4fe1-ad48-5fa87b4ce726"

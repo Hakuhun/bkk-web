@@ -1,0 +1,10 @@
+hu.oe.bakonyi.bkk.web
+hu.oe.bakonyi.bkk.web.client
+hu.oe.bakonyi.bkk.web.configuration
+hu.oe.bakonyi.bkk.web.controller
+hu.oe.bakonyi.bkk.web.converter
+hu.oe.bakonyi.bkk.web.exception
+hu.oe.bakonyi.bkk.web.model
+hu.oe.bakonyi.bkk.web.model.weather
+hu.oe.bakonyi.bkk.web.scheduler
+hu.oe.bakonyi.bkk.web.service

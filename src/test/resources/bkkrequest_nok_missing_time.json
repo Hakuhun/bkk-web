@@ -1,0 +1,11 @@
+{
+  "location":{
+    "lon":18.97,
+    "lat":47.54
+  },
+  "routeInfo":{
+    "route":"BKK_9795",
+    "stop":"BKK_4315",
+    "alert":false
+  }
+}
